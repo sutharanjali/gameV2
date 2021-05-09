@@ -71,7 +71,7 @@ function titlePageMouseClicked() {
 function levelOne() {
   background(0);
 
-  if (random(1) <= 0.01) {
+  if (random(1) <= 0.02) {
     obstacles.push(new Obstacle());
   }
 
